@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class PerfumelandiaSpaApplication {
-//Hola soy diego Mancilla.
+//Hola soy diego Mancilla....
 	public static void main(String[] args) {
 		SpringApplication.run(PerfumelandiaSpaApplication.class, args);
 	}
