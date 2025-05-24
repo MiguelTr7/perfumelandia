@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="carritoservice" target="17" />
+      <module name="perfumelandia-spa" target="17" />
+      <module name="productsevice" target="17" />
+      <module name="usuarioservice" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
