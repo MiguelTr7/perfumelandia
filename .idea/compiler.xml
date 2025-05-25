@@ -3,7 +3,7 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for perfumelandia-spa" enabled="true">
+      <profile name="Annotation profile for usuarioservice" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -11,8 +11,8 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
         <module name="usuarioservice" />
-        <module name="perfumelandia-spa" />
         <module name="productsevice" />
+        <module name="perfumelandia-spa" />
       </profile>
     </annotationProcessing>
   </component>
