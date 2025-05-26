@@ -33,4 +33,7 @@ public class PedidoService {
         pedido.setEstado(nuevoEstado);
         return pedidoRepository.save(pedido);
     }
+    public void eliminar(Long id) {
+        pedidoRepository.deleteById(id);
+    }
 }

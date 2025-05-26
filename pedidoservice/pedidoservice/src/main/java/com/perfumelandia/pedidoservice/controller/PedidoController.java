@@ -38,4 +38,13 @@ public class PedidoController {
             return ResponseEntity.notFound().build();
         }
     }
+    @DeleteMapping("/{id}")
+    public ResponseEntity eliminar(@PathVariable Long id) {
+        if (pedidoService.buscarPorId(id).isPresent()) {
+            pedidoService.eliminar(id);
+            return ResponseEntity.noContent().build();
+        } else
+        { return ResponseEntity.notFound().build();
+        }
+    }
 }
