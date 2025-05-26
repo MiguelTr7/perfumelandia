@@ -66,7 +66,7 @@ _Incluir capturas o descripciones de pruebas realizadas con Postman (mínimo 3 p
 
 | Nombre                | Rol en el proyecto          | Servicio principal trabajado  |
 |-----------------------|----------------------------|------------------------------|
-| Miguel Tropa 1 |    | Scrum Master-tester          |productoservice   
+| Miguel Tropa 1 | | Scrum Master-tester          |productoservice  | 
 | Maicol Hernandez 2 |  Backend y tester             | productoservice              |
 | Diego Mancilla 3 |      Backend y tester            | pedidoservice                |
 
