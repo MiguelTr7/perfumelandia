@@ -60,13 +60,14 @@ _Especificar los principales endpoints disponibles por microservicio (CRUD y lla
 
 _Incluir capturas o descripciones de pruebas realizadas con Postman (mínimo 3 por micro-servicio)._
 
+https://docs.google.com/document/d/1VMEqcWXhj39GU4Ukw7at6-QDYonfy-0VDxmBDUEVpxU/edit?usp=sharing
 ---
 
 ## 🧑‍💻 Integrantes del Equipo
 
 | Nombre                | Rol en el proyecto          | Servicio principal trabajado  |
 |-----------------------|----------------------------|------------------------------|
-| Miguel Tropa 1 | | Scrum Master-tester          |productoservice  | 
+| Miguel Tropa 1 | | Scrum Master-tester  |        |productoservice  | 
 | Maicol Hernandez 2 |  Backend y tester             | productoservice              |
 | Diego Mancilla 3 |      Backend y tester            | pedidoservice                |
 
