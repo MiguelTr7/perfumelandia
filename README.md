@@ -82,7 +82,7 @@ Puedes ver las capturas del proyecto en el siguiente enlace: [Capturas](https://
 
 | Nombre                | Rol en el proyecto          | Servicio principal trabajado  |
 |-----------------------|----------------------------|------------------------------|
-| Miguel Tropa 1 | Scrum Master-tester  |        |pedidoservice   | 
+| Miguel Tropa 1 | Scrum Master-tester  |        pedidoservice   | 
 | Maicol Hernandez 2 |  Backend y tester             | carritoservice              |
 | Diego Mancilla 3 |      Backend y tester            | pedidoservice                |
 
