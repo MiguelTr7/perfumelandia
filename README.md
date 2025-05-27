@@ -67,8 +67,8 @@ https://docs.google.com/document/d/1VMEqcWXhj39GU4Ukw7at6-QDYonfy-0VDxmBDUEVpxU/
 
 | Nombre                | Rol en el proyecto          | Servicio principal trabajado  |
 |-----------------------|----------------------------|------------------------------|
-| Miguel Tropa 1 | | Scrum Master-tester  |        |productoservice  | 
-| Maicol Hernandez 2 |  Backend y tester             | productoservice              |
+| Miguel Tropa 1 | | Scrum Master-tester  |        |pedidoservice   | 
+| Maicol Hernandez 2 |  Backend y tester             | carritoservice              |
 | Diego Mancilla 3 |      Backend y tester            | pedidoservice                |
 
 ---
