@@ -7,7 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/pedidos")
@@ -46,5 +48,12 @@ public class PedidoController {
         } else
         { return ResponseEntity.notFound().build();
         }
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Pedido> buscarPorId(@PathVariable Long id) {
+        Optional<Pedido> pedido = pedidoService.buscarPorId(id);
+        return pedido.map(ResponseEntity::ok)
+                .orElseGet(() -> ResponseEntity.notFound().build());
     }
 }
