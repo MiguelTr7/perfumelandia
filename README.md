@@ -82,8 +82,14 @@ El sistema está basado en una arquitectura de microservicios que permite desarr
 
 ## 🔗 Comunicación entre Servicios
 
-- **REST API** mediante `RestTemplate` (por ahora).
-- En el futuro puede integrarse un **API Gateway** y **FeignClient** para facilitar la comunicación y balanceo.
+La comunicación entre microservicios se realiza mediante **REST APIs** usando `RestTemplate`.
+
+Actualmente, **solo `pedidoservice` actúa como consumidor**, realizando llamadas REST a:
+
+- `usuarioservice`: para validar la existencia del usuario que realiza el pedido.
+- `productoservice`: para validar la disponibilidad y obtener detalles del producto.
+
+> En el futuro, se puede integrar un **API Gateway** para centralizar las rutas y autenticaciones, y reemplazar `RestTemplate` por **FeignClient** para simplificar el consumo de servicios.
 
 ---
 
