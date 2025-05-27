@@ -59,16 +59,6 @@ _Describir cómo está estructurado el sistema en microservicios. Pueden incluir
 ## 🗄️ Configuración de Bases de Datos
 
 _Indicar qué motor de base de datos usaron, cómo configuraron la conexión (`application.properties`), y qué tablas y campos definieron para cada microservicio._
-## 🗄️ Base de Datos y Configuración
-
-### 🔧 Motor de Base de Datos
-
-## 🗄️ Base de Datos y Configuración
-
-### 🔧 Motor de Base de Datos
-
-Se utilizó **MySQL 8** como motor de base de datos, gestionado localmente mediante **Laragon**, escuchando en el puerto por defecto **3306**.
-
 
 
 
@@ -82,7 +72,10 @@ _Especificar los principales endpoints disponibles por microservicio (CRUD y lla
 
 _Incluir capturas o descripciones de pruebas realizadas con Postman (mínimo 3 por micro-servicio)._
 
-https://docs.google.com/document/d/1VMEqcWXhj39GU4Ukw7at6-QDYonfy-0VDxmBDUEVpxU/edit?usp=sharing
+## Capturas
+
+Puedes ver las capturas del proyecto en el siguiente enlace: [Capturas](https://docs.google.com/document/d/1VMEqcWXhj39GU4Ukw7at6-QDYonfy-0VDxmBDUEVpxU/edit?usp=sharing)
+
 ---
 
 ## 🧑‍💻 Integrantes del Equipo
