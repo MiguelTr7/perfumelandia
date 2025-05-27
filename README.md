@@ -22,9 +22,6 @@ Agilidad en el desarrollo: permite trabajar con equipos especializados por servi
 
 ---
 
-## 🧩 Arquitectura de Microservicios
-
-_Describir cómo está estructurado el sistema en microservicios. Pueden incluir un diagrama y explicar brevemente la función de cada servicio._
 
 ### Microservicios Desarrollados
 
