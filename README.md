@@ -122,6 +122,13 @@ _Indicar qué motor de base de datos usaron, cómo configuraron la conexión (`a
 
 _Especificar los principales endpoints disponibles por microservicio (CRUD y llamadas entre servicios)._
 
+Entre producto y usuario
+http://localhost:8085/api/v1/productos/usuario/{id}
+
+Entre pedidos y usuario
+ http://localhost:8085/api/v1/pedidos/usuario/2
+
+
 _Incluir capturas o descripciones de pruebas realizadas con Postman (mínimo 3 por micro-servicio)._
 
 ## Capturas
