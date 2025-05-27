@@ -147,6 +147,30 @@ Puedes ver las capturas del proyecto en el siguiente enlace: [Capturas](https://
 
 ---
 
-## 📂 Estructura del Repositorio
+## 📁 Estructura del Repositorio
 
-_Explicar brevemente la organización de carpetas del repositorio (por ejemplo, cada carpeta corresponde a un microservicio separado con su propio `pom.xml`)._
+Este proyecto está organizado bajo una arquitectura de microservicios. Cada carpeta representa un servicio independiente con su propia configuración, código y dependencias.
+
+- `.idea/`  
+  Archivos de configuración del entorno IntelliJ IDEA (no afecta el código del proyecto).
+
+- `carritoservice/`  
+  Microservicio encargado de gestionar los carritos de compra de los usuarios. Permite operaciones como agregar, eliminar y listar productos en el carrito.
+
+- `pedidoservice/`  
+  Microservicio que administra los pedidos realizados por los usuarios. Verifica la existencia del usuario y productos antes de registrar el pedido. Se comunica con `usuarioservice` y `productoservice`.
+
+- `perfumelandia-spa/`  
+  Proyecto principal del frontend (posiblemente una SPA), encargado de consumir los microservicios y ofrecer la interfaz de usuario.
+
+- `productoservice/`  
+  Microservicio que maneja la gestión de productos: creación, edición, listado y control de stock.
+
+- `usuarioservice/`  
+  Microservicio encargado del manejo de usuarios: registro, actualización y obtención de datos personales.
+
+- `README`  
+  Archivo de documentación que describe el propósito del proyecto, arquitectura, cómo ejecutarlo, endpoints disponibles, y otra información útil para los desarrolladores.
+
+Cada servicio es un proyecto Spring Boot separado y puede contener su propio `pom.xml` (en caso de usar Maven) o `build.gradle` (si se usa Gradle).
+
