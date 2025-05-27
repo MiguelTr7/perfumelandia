@@ -28,19 +28,65 @@ _Describir cómo está estructurado el sistema en microservicios. Pueden incluir
 
 ### Microservicios Desarrollados
 
-- **usuarioservice:**  
-  _Describir qué funcionalidades ofrece este microservicio._
+# 🧱 Arquitectura de Microservicios – Perfulandia SPA
 
-- **productoservice:**  
-  _Describir qué funcionalidades ofrece este microservicio._
+El sistema está basado en una arquitectura de microservicios que permite desarrollar, desplegar y escalar componentes de forma independiente. Cada microservicio tiene una única responsabilidad y se comunica con los demás mediante HTTP (REST APIs).
 
-- **Pedidoservice:**  
-  _Indicar el nombre y función del microservicio adicional implementado._
-
-- **Carritoservice:**  
-  _Indicar el nombre y función del microservicio adicional implementado._
+## 🔧 Microservicios Desarrollados
 
 ---
+
+### 🧍‍♂️ usuarioservice
+**Descripción**: Servicio encargado de la gestión de usuarios.
+
+**Funciones**:
+- Crear, actualizar y eliminar usuarios.
+- Obtener información de usuario por ID.
+- Validar existencia de usuario al generar pedidos.
+- Asociar carritos y pedidos a un usuario.
+
+---
+
+### 🛍 productoservice
+**Descripción**: Servicio que administra el catálogo de productos disponibles.
+
+**Funciones**:
+- Crear, actualizar y eliminar productos.
+- Consultar productos disponibles.
+- Controlar stock y precios.
+- Brindar información a carritoservice y pedidoservice.
+
+---
+
+### 📦 pedidoservice
+**Descripción**: Servicio que gestiona los pedidos realizados por los usuarios.
+
+**Funciones**:
+- Crear un nuevo pedido a partir del carrito.
+- Cambiar el estado del pedido (GENERADO, ENVIADO, ENTREGADO).
+- Listar pedidos por usuario.
+- Validar productos y usuarios antes de confirmar el pedido.
+
+---
+
+### 🛒 carritoservice
+**Descripción**: Servicio que permite a los usuarios gestionar productos antes de realizar una compra.
+
+**Funciones**:
+- Agregar o eliminar productos al carrito.
+- Visualizar el contenido del carrito por usuario.
+- Vaciar carrito.
+- Integrarse con productoservice y usuarioservice.
+
+---
+
+## 🔗 Comunicación entre Servicios
+
+- **REST API** mediante `RestTemplate` (por ahora).
+- En el futuro puede integrarse un **API Gateway** y **FeignClient** para facilitar la comunicación y balanceo.
+
+---
+
 
 ## 🧰 Tecnologías y herramientas utilizadas
 
