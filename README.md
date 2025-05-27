@@ -42,27 +42,18 @@ _Describir cómo está estructurado el sistema en microservicios. Pueden incluir
 
 ---
 
-🧰 Tecnologías y herramientas utilizadas en el proyecto
-Spring Boot
-Framework principal para desarrollar aplicaciones Java modernas, rápidas y basadas en microservicios.
+## 🧰 Tecnologías y herramientas utilizadas
 
-Maven
-Herramienta de gestión de dependencias y construcción del proyecto Java.
+| Herramienta / Tecnología      | Descripción                                                         |
+|------------------------------|---------------------------------------------------------------------|
+| **Spring Boot**              | Framework para el desarrollo de aplicaciones Java modernas.         |
+| **Maven**                    | Sistema de construcción y gestión de dependencias.                  |
+| **MySQL**                    | Base de datos relacional para almacenar la información.             |
+| **Postman**                  | Herramienta para probar y consumir APIs REST.                       |
+| **GitHub**                   | Plataforma para el control de versiones y colaboración.             |
+| **Laragon**                  | Entorno de desarrollo local que facilita la gestión de servicios.   |
+| **IntelliJ IDEA + Intellicode** | IDE para desarrollo en Java con soporte inteligente de código.    |
 
-MySQL
-Sistema de gestión de bases de datos relacional utilizado para almacenar la información del sistema.
-
-Postman
-Cliente REST utilizado para probar y consumir las API desarrolladas (endpoints GET, POST, PUT, DELETE).
-
-GitHub
-Plataforma para el control de versiones y colaboración en el código fuente del proyecto.
-
-Laragon
-Entorno de desarrollo local que facilita la configuración y ejecución de servicios como MySQL y Apache.
-
-IntelliJ IDEA / Intellicode
-Entorno de desarrollo integrado (IDE) usado para programar, con funciones inteligentes de asistencia al código gracias a Intellicode.
 ---
 
 ## 🗄️ Configuración de Bases de Datos
