@@ -69,25 +69,6 @@ _Indicar qué motor de base de datos usaron, cómo configuraron la conexión (`a
 
 Se utilizó **MySQL 8** como motor de base de datos, gestionado localmente mediante **Laragon**, escuchando en el puerto por defecto **3306**.
 
----
-
-### ⚙️ Configuración de conexión (`application.properties`)
-
-A continuación se detallan los parámetros de conexión y configuración para cada microservicio:
-
-#### 🧾 Servicio de Pedidos (`pedidoservice`)
-properties
-spring.application.name=pedidoservice
-server.port=8085
-
-spring.datasource.url=jdbc:mysql://localhost:3306/perfulandia_pedido
-spring.datasource.username=root
-spring.datasource.password=
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 
 
