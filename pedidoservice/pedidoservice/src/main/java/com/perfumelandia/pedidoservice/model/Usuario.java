@@ -7,5 +7,5 @@ import lombok.*;
 @NoArgsConstructor
 public class Usuario {
     private long id;
-    private String nombre,correo, rol;
+    private String nombre, correo, rol;
 }

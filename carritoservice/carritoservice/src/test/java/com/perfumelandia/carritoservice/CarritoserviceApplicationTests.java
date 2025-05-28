@@ -1,4 +1,4 @@
-package com.carritoservice.carritoservice;
+package com.perfumelandia.carritoservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

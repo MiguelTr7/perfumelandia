@@ -4,8 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dad34678-f961-4e86-bebd-b3de8f7308b1" name="Changes" comment="Tercer Commit, Implemente el nuevo microservicio para perfumelandia que es sobre un carrito de compras el cual va a ipkementar e eliminar carrito de compras y etc. Tambien agregando productos">
+    <list default="true" id="d4dbdaa8-407d-40e1-a18c-89064a3ba701" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/carritoservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfumelandia/carritoservice/controller/CarritoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfumelandia/carritoservice/model/Carrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfumelandia/carritoservice/model/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfumelandia/carritoservice/repository/CarritoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfumelandia/carritoservice/service/CarritoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/perfumelandia.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/carritoservice/carritoservice/CarritoServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/carritoservice/carritoservice/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/carritoservice/carritoservice/controller/CarritoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/carritoservice/carritoservice/model/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/carritoservice/carritoservice/service/CarritoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/carritoservice/carritoservice/service/ProductoValidatorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/test/java/com/carritoservice/carritoservice/CarritoserviceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pedidoservice/pedidoservice/src/main/java/com/perfumelandia/pedidoservice/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pedidoservice/pedidoservice/src/main/java/com/perfumelandia/pedidoservice/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pedidoservice/pedidoservice/src/main/java/com/perfumelandia/pedidoservice/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pedidoservice/pedidoservice/src/main/java/com/perfumelandia/pedidoservice/model/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,19 +43,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2xSU2JtXWkf5ApjKzw7x6v4FiuQ" />
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MaicolHernandez33"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MiguelTr7/perfumelandia.git",
+    "accountId": "64351313-98cd-437d-9e7c-af5203af18e7"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2xhLQUEL4CKATekMFHfDtQAF16G" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -40,78 +79,49 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "diego-mancilla",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Diego Andres/Downloads/Desarrollo Fullstack I/perfumelandia-diego-jueves/perfumelandia",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CarritoserviceApplication.executor": "Run",
+    "git-widget-placeholder": "maicol-hernandez2",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/MaiK/Desktop/proyecto2/perfumelandia/carritoservice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="CarritoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="carritoservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfumelandia.carritoservice.CarritoserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
       </set>
     </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dad34678-f961-4e86-bebd-b3de8f7308b1" name="Changes" comment="" />
-      <created>1747930761397</created>
+      <changelist id="d4dbdaa8-407d-40e1-a18c-89064a3ba701" name="Changes" comment="" />
+      <created>1748385342911</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1747930761397</updated>
-      <workItem from="1747930763685" duration="367000" />
-      <workItem from="1747931194190" duration="1442000" />
-      <workItem from="1748044434578" duration="76000" />
+      <updated>1748385342911</updated>
+      <workItem from="1748385344406" duration="5226000" />
     </task>
-    <task id="LOCAL-00001" summary="Tercer Commit, Implemente el nuevo microservicio para perfumelandia que es sobre un carrito de compras el cual va a ipkementar e eliminar carrito de compras y etc. Tambien agregando productos">
-      <option name="closed" value="true" />
-      <created>1747932084190</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1747932084190</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="diego-mancilla" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tercer Commit, Implemente el nuevo microservicio para perfumelandia que es sobre un carrito de compras el cual va a ipkementar e eliminar carrito de compras y etc. Tambien agregando productos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tercer Commit, Implemente el nuevo microservicio para perfumelandia que es sobre un carrito de compras el cual va a ipkementar e eliminar carrito de compras y etc. Tambien agregando productos" />
   </component>
 </project>
